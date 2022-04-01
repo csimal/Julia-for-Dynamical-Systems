@@ -368,13 +368,13 @@ end
 
 # ╔═╡ f0215a78-146d-4009-ae73-8a2f35072db9
 md"""
-Now, we can move on the computing the MSF proper. To do this, we solve the MSF ODE, then estimating the Lyapunov exponent from the time series.
+Now, we can move on to computing the MSF proper. To do this, we solve the MSF ODE, then estimating the Lyapunov exponent from the time series.
 
 NB. Recall that the Lyapunov exponent for a dynamical sytem is defined by
 ```math
 \lambda = \lim_{t\rightarrow \infty} \lim_{\xi_0 \rightarrow 0} \frac{1}{t} \ln \frac{\|\xi(t)\|}{\|\xi_0\|},
 ```
-where ``\xi(0) = \xi_0`` is a small perturbation applied to the orbit of interest (here, the perdiodic solution).
+where ``\xi(0) = \xi_0`` is a small perturbation applied to the orbit of interest (here, the periodic solution).
 """
 
 # ╔═╡ 84d86795-e2c4-4c2c-888b-ae999bcda2dd
